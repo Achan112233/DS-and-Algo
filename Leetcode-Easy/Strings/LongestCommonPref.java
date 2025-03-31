@@ -3,6 +3,7 @@ class Solution {
         //U- all strings in the array must share the prefix, saving the substring of the longest prefix
         //M-prefix tree (MAYBE), 
         //P- if size > 0 substring = strs[0]  
+        // pseudocode:
         // if size == 1 return substring
         // result = ""
         // for str in strs
